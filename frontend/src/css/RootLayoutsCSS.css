@@ -1,0 +1,56 @@
+/* Style for the header */
+header {
+    background-color: #007bff; /* Blue color */
+    padding: 40px 300px;
+    margin-bottom: 100px;
+  }
+  
+  /* Style for the navigation */
+  nav {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items to the start and end of the container */
+  }
+  
+  /* Style for the left navigation */
+  .left {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .left li {
+    display: inline-block;
+    font-weight: 100;
+  }
+  
+  /* Style for the right navigation */
+  .right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .right li {
+    display: inline-block;
+    margin-left: 20px; /* Adjust spacing between links */
+  }
+  
+  /* Style for the navigation links */
+  nav ul li a {
+    text-decoration: none;
+  color: #fff; /* White color */
+  font-weight: bold;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Add transition for smooth effect */
+
+  }
+  
+  nav ul li a:hover {
+    color: #fff; /* White color */
+  text-decoration: underline; /* Underline effect on hover */
+  }
+  
+  /* Style for the active link */
+  nav ul li a.active {
+    color: #ff0; /* Yellow color */
+  }
+  

@@ -1,0 +1,49 @@
+POST http://localhost:3000/user/register
+Content-Type: application/json
+
+{
+    "username" : "user4",
+    "password" : "user444"
+}
+
+
+
+###
+
+post http://localhost:3000/books/
+Content-Type: application/json
+
+{
+    "title": "marvel",
+    "author": "uni",
+    "publishYear": "55"
+}
+
+###
+
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+    "username" : "kishan",
+    "password" : "123"
+}
+
+###
+
+GET http://localhost:3000/books
+
+###
+
+DELETE http://localhost:3000/cart/65f32ffbe61a0476506dfad3
+
+###
+
+POST  http://localhost:3000/cart/65f32ffbe61a0476506dfad3
+
+###
+GET  http://localhost:3000/cart/
+
+###
+
+GET http://localhost:3000/books/byName/marvel
